@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>眼镜饼状图</title>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+
+</head>
+<body>
+    <div id="1a2060fa5a4e44ba8906f93e82e1fb5a" class="chart-container" style="width:900px; height:500px;"></div>
+    <script>
+        var chart_1a2060fa5a4e44ba8906f93e82e1fb5a = echarts.init(
+            document.getElementById('1a2060fa5a4e44ba8906f93e82e1fb5a'), 'white', {renderer: 'canvas'});
+        var option_1a2060fa5a4e44ba8906f93e82e1fb5a = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "color": [
+        "#c23531",
+        "#2f4554",
+        "#61a0a8",
+        "#d48265",
+        "#749f83",
+        "#ca8622",
+        "#bda29a",
+        "#6e7074",
+        "#546570",
+        "#c4ccd3",
+        "#f05b72",
+        "#ef5b9c",
+        "#f47920",
+        "#905a3d",
+        "#fab27b",
+        "#2a5caa",
+        "#444693",
+        "#726930",
+        "#b2d235",
+        "#6d8346",
+        "#ac6767",
+        "#1d953f",
+        "#6950a1",
+        "#918597"
+    ],
+    "series": [
+        {
+            "type": "pie",
+            "clockwise": true,
+            "data": [
+                {
+                    "name": "\u4e0d\u6234\u773c\u955c",
+                    "value": 21
+                },
+                {
+                    "name": "\u6234\u773c\u955c",
+                    "value": 0
+                },
+                {
+                    "name": "\u6234\u58a8\u955c",
+                    "value": 5
+                }
+            ],
+            "radius": [
+                30,
+                75
+            ],
+            "center": [
+                "50%",
+                "70%"
+            ],
+            "roseType": "area",
+            "label": {
+                "show": true,
+                "position": "outside",
+                "margin": 8,
+                "formatter": "{b|{b}: }{c}  {per|{d}%}  ",
+                "backgroundColor": "#eee",
+                "borderColor": "#aaa",
+                "borderWidth": 1,
+                "borderRadius": 4,
+                "rich": {
+                    "a": {
+                        "color": "#999",
+                        "lineHeight": 22,
+                        "align": "center"
+                    },
+                    "abg": {
+                        "backgroundColor": "#e3e3e3",
+                        "width": "100%",
+                        "align": "right",
+                        "height": 22,
+                        "borderRadius": [
+                            4,
+                            4,
+                            0,
+                            0
+                        ]
+                    },
+                    "hr": {
+                        "borderColor": "#aaa",
+                        "width": "100%",
+                        "borderWidth": 0.5,
+                        "height": 0
+                    },
+                    "b": {
+                        "fontSize": 16,
+                        "lineHeight": 33
+                    },
+                    "per": {
+                        "color": "#eee",
+                        "backgroundColor": "#334455",
+                        "padding": [
+                            2,
+                            4
+                        ],
+                        "borderRadius": 2
+                    }
+                }
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "\u4e0d\u6234\u773c\u955c",
+                "\u6234\u773c\u955c",
+                "\u6234\u58a8\u955c"
+            ],
+            "selected": {},
+            "show": true,
+            "left": "15%",
+            "top": "20%",
+            "orient": "vertical",
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0
+    },
+    "title": [
+        {
+            "text": "\u773c\u955c\u997c\u72b6\u56fe",
+            "left": "center",
+            "padding": 5,
+            "itemGap": 10
+        }
+    ],
+    "toolbox": {
+        "show": true,
+        "orient": "vertical",
+        "itemSize": 15,
+        "itemGap": 10,
+        "left": "80%",
+        "right": "15%",
+        "top": "25%",
+        "feature": {
+            "saveAsImage": {
+                "show": true,
+                "title": "save as image",
+                "type": "png"
+            },
+            "restore": {
+                "show": true,
+                "title": "restore"
+            },
+            "dataView": {
+                "show": true,
+                "title": "data view",
+                "readOnly": false
+            },
+            "dataZoom": {
+                "show": true,
+                "title": {
+                    "zoom": "data zoom",
+                    "back": "data zoom restore"
+                }
+            }
+        }
+    }
+};
+        chart_1a2060fa5a4e44ba8906f93e82e1fb5a.setOption(option_1a2060fa5a4e44ba8906f93e82e1fb5a);
+    </script>
+</body>
+</html>
